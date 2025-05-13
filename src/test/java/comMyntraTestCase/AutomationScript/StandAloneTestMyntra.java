@@ -26,7 +26,12 @@ public class StandAloneTestMyntra {
 
 		driver.findElement(By.xpath("(//a[contains(text(),'Makeup')])[2]")).click();
 		driver.findElement(By.xpath("//input[@value=\"Lipstick\"]")).click();
-		
-	
-	
-}}
+
+	}
+
+	public void m4() {
+		System.out.println("z");
+		System.out.println("z1");
+		System.out.println("z3");
+	}
+}

@@ -11,5 +11,11 @@ public class Intro {
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		
+		
 	}
+public void method3() {
+	System.out.println("1");
+	System.out.println("2");
 }
+}
+

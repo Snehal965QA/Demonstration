@@ -11,6 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class Steampowered {
 	public static void main(String[] args) {
 		// Set up WebDriver
@@ -24,5 +26,8 @@ public class Steampowered {
 		driver.findElement(By.xpath("(//input[@class=\"_2GBWeup5cttgbTw8FM3tfx\"])[1]")).sendKeys("snehal");
 		driver.findElement(By.xpath("(//input[@class=\"_2GBWeup5cttgbTw8FM3tfx\"])[2]")).sendKeys("12345");
 // css selector for sign in-  button[type='submit']
+	
+	
+	System.out.println("hi");
 	}
 }

@@ -28,6 +28,11 @@ public class Steampowered {
 // css selector for sign in-  button[type='submit']
 	
 	
-	System.out.println("hi");
+	System.out.println("hi1");
+	
+	}
+	public void auto() {
+		System.out.println("1");
+		System.out.println("2");
 	}
 }
